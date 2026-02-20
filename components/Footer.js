@@ -19,16 +19,14 @@ export default function Footer() {
                     <div className={styles.brand}>
                         <div className={styles.logo}>
                             <span className={styles.logoIcon}>🛍️</span>
-                            <span className={styles.logoText}>Baipho<span>Shop</span></span>
+                            <span className={styles.logoText}>ร้านใบโพธิ์</span>
                         </div>
                         <p className={styles.tagline}>
                             ร้านค้าครบครัน คัดสรรสินค้าคุณภาพดี<br />
                             เพื่อทุกความต้องการของคุณและครอบครัว
                         </p>
                         <div className={styles.socials}>
-                            <a href="#" aria-label="Facebook" className={styles.social}>📘</a>
-                            <a href="#" aria-label="Line" className={styles.social}>💬</a>
-                            <a href="#" aria-label="Instagram" className={styles.social}>📷</a>
+                            <a href="https://www.facebook.com/baiphoshoesshop" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className={styles.social}>📘</a>
                         </div>
                     </div>
 
@@ -57,7 +55,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.bottom}>
-                    <p>© 2026 BaiphoShop. สงวนลิขสิทธิ์ทุกประการ.</p>
+                    <p>© 2026 ร้านใบโพธิ์ เวียงชัย. สงวนลิขสิทธิ์ทุกประการ.</p>
                     <div className={styles.bottomLinks}>
                         <a href="#">นโยบายความเป็นส่วนตัว</a>
                         <a href="#">เงื่อนไขการใช้งาน</a>

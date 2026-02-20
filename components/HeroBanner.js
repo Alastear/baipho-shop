@@ -30,7 +30,7 @@ export default function HeroBanner() {
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.2 }}
                         >
-                            🎉 ยินดีต้อนรับสู่ Baipho Shop
+                            🎉 ยินดีต้อนรับสู่ ร้านใบโพธิ์ เวียงชัย
                         </motion.div>
 
                         <motion.h1
@@ -53,7 +53,7 @@ export default function HeroBanner() {
                             transition={{ delay: 0.5 }}
                         >
                             อุปกรณ์การเรียน ชุดนักเรียน รองเท้า และสินค้าสัตว์เลี้ยง
-                            ครบครันในที่เดียว คัดสรรคุณภาพเพื่อคุณและครอบครัว
+                            ครบครันในที่เดียว ออกบิลเบิกโรงเรียนได้ เปิดทุกวัน!
                         </motion.p>
 
                         <motion.div
@@ -80,7 +80,7 @@ export default function HeroBanner() {
                             {[
                                 { n: '6', label: 'หมวดหมู่สินค้า' },
                                 { n: '30+', label: 'รายการสินค้า' },
-                                { n: '100%', label: 'สินค้าคุณภาพ' },
+                                { n: 'ออกบิลได้', label: 'เบิกโรงเรียน' },
                             ].map((s) => (
                                 <div key={s.label} className={styles.stat}>
                                     <span className={styles.statNum}>{s.n}</span>
@@ -99,12 +99,12 @@ export default function HeroBanner() {
                             transition={{ delay: 0.4, duration: 0.7, type: 'spring' }}
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&q=80"
-                                alt="สินค้าแนะนำ"
+                                src="/baipho-profile.jpg"
+                                alt="ร้านใบโพธิ์ เวียงชัย"
                                 className={styles.mainImg}
                             />
                             <div className={styles.cardOverlay}>
-                                <span className={styles.cardTag}>⭐ สินค้ายอดนิยม</span>
+                                <span className={styles.cardTag}>📍 ร้านใบโพธิ์ เวียงชัย เชียงราย</span>
                             </div>
                         </motion.div>
 

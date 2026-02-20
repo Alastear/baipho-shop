@@ -41,7 +41,7 @@ export default function Navbar() {
                             🛍️
                         </motion.div>
                         <span className={styles.brandText}>
-                            Baipho<span className={styles.brandAccent}>Shop</span>
+                            ร้านใบโพธิ์
                         </span>
                     </Link>
 
