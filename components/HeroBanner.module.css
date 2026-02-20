@@ -3,7 +3,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #EBF5FF 0%, #F0FAFA 50%, #E0F7F4 100%);
+    background: linear-gradient(135deg, #EBF5FF 0%, #F5F9FF 50%, #DDEEFF 100%);
     overflow: hidden;
     padding-top: var(--navbar-height);
 }

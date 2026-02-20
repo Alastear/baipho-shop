@@ -5,18 +5,18 @@
   --color-primary: #1565C0;
   --color-primary-light: #1E88E5;
   --color-primary-dark: #0D47A1;
-  --color-secondary: #00897B;
-  --color-secondary-light: #26A69A;
-  --color-accent: #80DEEA;
-  --color-accent-soft: #B2EBF2;
-  --color-bg: #F0FAFA;
+  --color-secondary: #1976D2;
+  --color-secondary-light: #42A5F5;
+  --color-accent: #90CAF9;
+  --color-accent-soft: #BBDEFB;
+  --color-bg: #F5F9FF;
   --color-surface: #FFFFFF;
-  --color-surface-hover: #F5FEFF;
-  --color-border: #CFE8F0;
-  --color-text: #1C2B36;
-  --color-text-secondary: #4A6580;
-  --color-muted: #8AAFC7;
-  --color-success: #2E7D32;
+  --color-surface-hover: #F0F6FF;
+  --color-border: #C5D8F5;
+  --color-text: #0D1B2E;
+  --color-text-secondary: #3A5670;
+  --color-muted: #7A9EC2;
+  --color-success: #1565C0;
   --color-badge-new: #1565C0;
   --color-badge-sale: #B71C1C;
 
@@ -40,7 +40,9 @@
 }
 
 /* ===== Reset ===== */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -106,6 +108,7 @@ img {
   color: #fff;
   box-shadow: 0 4px 16px rgba(21, 101, 192, 0.3);
 }
+
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(21, 101, 192, 0.4);
@@ -116,6 +119,7 @@ img {
   color: #fff;
   box-shadow: 0 4px 16px rgba(0, 137, 123, 0.3);
 }
+
 .btn-secondary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0, 137, 123, 0.4);
@@ -126,6 +130,7 @@ img {
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
 }
+
 .btn-outline:hover {
   background: var(--color-primary);
   color: #fff;
@@ -139,6 +144,7 @@ img {
   box-shadow: var(--shadow-card);
   transition: all var(--transition-base);
 }
+
 .card:hover {
   box-shadow: var(--shadow-lg);
   border-color: var(--color-accent);
@@ -154,16 +160,19 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+
 .badge-new {
   background: var(--color-badge-new);
   color: #fff;
 }
+
 .badge-sale {
   background: var(--color-badge-sale);
   color: #fff;
 }
+
 .badge-popular {
-  background: var(--color-secondary);
+  background: var(--color-primary-light);
   color: #fff;
 }
 
@@ -174,14 +183,17 @@ img {
   color: var(--color-text);
   letter-spacing: -0.02em;
 }
+
 .section-subtitle {
   font-size: 1rem;
   color: var(--color-text-secondary);
   margin-top: 8px;
 }
+
 .section-header {
   margin-bottom: 40px;
 }
+
 .section-header.centered {
   text-align: center;
 }
@@ -215,20 +227,36 @@ img {
   border-radius: var(--radius-full);
   margin-top: 12px;
 }
+
 .divider.centered {
   margin: 12px auto 0;
 }
 
 /* ===== Scrollbar ===== */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--color-bg); }
-::-webkit-scrollbar-thumb { background: var(--color-accent); border-radius: 3px; }
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 3px;
+}
 
 /* ===== Loading skeleton ===== */
 @keyframes shimmer {
-  0% { background-position: -400px 0; }
-  100% { background-position: 400px 0; }
+  0% {
+    background-position: -400px 0;
+  }
+
+  100% {
+    background-position: 400px 0;
+  }
 }
+
 .skeleton {
   background: linear-gradient(90deg, #e8f4f8 25%, #d0eaf3 50%, #e8f4f8 75%);
   background-size: 800px 100%;
@@ -238,13 +266,32 @@ img {
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .section { padding: 48px 0; }
-  .container { padding: 0 16px; }
-  .grid-products { grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  .grid-categories { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .section {
+    padding: 48px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .grid-products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .grid-categories {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
 }
 
 @media (max-width: 480px) {
-  .grid-products { grid-template-columns: 1fr 1fr; gap: 12px; }
-  .grid-categories { grid-template-columns: repeat(2, 1fr); }
+  .grid-products {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .grid-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

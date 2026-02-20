@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(135deg, #0D47A1 0%, #1565C0 50%, #00695C 100%);
+    background: linear-gradient(135deg, #0D47A1 0%, #1565C0 50%, #1976D2 100%);
     color: #fff;
     padding: 64px 0 0;
     margin-top: 80px;
@@ -33,7 +33,7 @@
 }
 
 .logoText span {
-    color: #80DEEA;
+    color: #90CAF9;
 }
 
 .tagline {
@@ -72,7 +72,7 @@
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #80DEEA;
+    color: #90CAF9;
     margin-bottom: 16px;
 }
 

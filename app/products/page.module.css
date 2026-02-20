@@ -1,5 +1,5 @@
 .pageHeader {
-    background: linear-gradient(135deg, #EBF5FF 0%, #F0FAFA 100%);
+    background: linear-gradient(135deg, #EBF5FF 0%, #F5F9FF 100%);
     padding: calc(var(--navbar-height) + 40px) 0 40px;
     border-bottom: 1px solid var(--color-border);
 }

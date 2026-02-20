@@ -48,10 +48,10 @@ export default function Footer() {
                     <div>
                         <h3 className={styles.colTitle}>ติดต่อเรา</h3>
                         <ul className={styles.contactList}>
-                            <li>📍 123 ถ. สุขุมวิท กรุงเทพฯ 10110</li>
-                            <li>📞 02-XXX-XXXX</li>
-                            <li>📧 hello@baiphoshop.com</li>
-                            <li>⏰ จ-ศ 08:00 – 18:00 น.</li>
+                            <li>📍 198/1 หมู่ 1 ต.เวียงชัย อ.เวียงชัย เชียงราย</li>
+                            <li>📞 098 341 7259</li>
+                            <li>⏰ เปิดทุกวัน (หยุดวันที่ 16 ของเดือน)</li>
+                            <li>📘 <a href="https://www.facebook.com/baiphoshoesshop" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.75)' }}>Baipho Shoes Shop</a></li>
                         </ul>
                     </div>
                 </div>
